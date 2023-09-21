@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 203px 182px 252px 135px;
+  background: #fdf0e9;
+  min-height: 100vh;
+  display: flex;
+  
+}
+
+.container .box h1 {
+    margin-bottom: 30px;
+  color: var(--Text_Dark_Accent, #ef6d58);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+}
+
+.container .box p {
+    width: 370px;
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.container .box a {
+    margin-top: 28px;
+    display: block;
+  color: var(--Text_Dark, #391400);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+
+.container .box-3 h2{
+    color: var(--Text_Dark, #391400);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.container .box-3 span {
+    width: 240px;
+    color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+
+ul {
+  padding: 0 134px;
+  display: flex;
+  align-items: center;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.white-box {
+  width: 336px;
+height: 336px;
+  padding: 48px 48px 46px 48px;
+  background-color: white;
+  width: 336px;
+height: 336px;
+border-radius: 6px 6px 0px 6px;
+border: 1px solid #F3D1BF;
+box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
+
+}
+
+.white-box .box-3 h2 {
+  margin-top: 41px;
+}
+
+.white-box .box-3 span {
+  margin-top: 19px;
+}
+
+
