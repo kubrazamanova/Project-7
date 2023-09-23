@@ -50,6 +50,7 @@
   text-decoration: none;
 }
 ul {
+  /* padding: 0 134px; */
   display: flex;
   align-items: center;
 }
@@ -73,17 +74,11 @@ ul li .circle {
 }
 ul li:first-child {
   background-color: white;
-  border-radius: 6px 6px 0px 6px;
 }
-ul li:last-child {
-  margin-top: 64px;
-  padding-top: 105px;
-  border-radius: 0px 6px 6px 0px;
-}
-/* ul li:nth-child(2){
-
-} */
+ul:
 ul li .container li h2 {
+  margin-top: 41px;
+
   color: var(--Text_Dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -95,7 +90,6 @@ ul li .container li h2 {
 
 .container li span {
   width: 240px;
-  display: block;
   margin-top: 19px;
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
@@ -105,3 +99,4 @@ ul li .container li h2 {
   font-weight: 400;
   line-height: 32px;
 }
+

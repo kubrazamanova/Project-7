@@ -10,7 +10,6 @@
   background: #fdf0e9;
   min-height: 100vh;
   display: flex;
-  justify-content: space-between;
 }
 
 .container .box h1 {
@@ -50,6 +49,7 @@
   text-decoration: none;
 }
 ul {
+  /* padding: 0 134px; */
   display: flex;
   align-items: center;
 }
@@ -60,30 +60,12 @@ ul li {
   padding: 48px 48px 46px 48px;
   width: 336px;
   box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
-}
-ul li .circle {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 41px;
-  background-color: #ef6c57;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-ul li:first-child {
-  background-color: white;
-  border-radius: 6px 6px 0px 6px;
-}
-ul li:last-child {
-  margin-top: 64px;
-  padding-top: 105px;
-  border-radius: 0px 6px 6px 0px;
-}
-/* ul li:nth-child(2){
 
-} */
-ul li .container li h2 {
+
+
+}
+ul li:fir
+.container li h2 {
   color: var(--Text_Dark, #391400);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -95,8 +77,6 @@ ul li .container li h2 {
 
 .container li span {
   width: 240px;
-  display: block;
-  margin-top: 19px;
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
   font-family: Epilogue;
@@ -104,4 +84,22 @@ ul li .container li h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+}
+
+
+
+.white-box {
+
+  background-color: white;
+
+  border-radius: 6px 6px 0px 6px;
+
+}
+
+.white-box .box-3 h2 {
+  margin-top: 41px;
+}
+
+.white-box .box-3 span {
+  margin-top: 19px;
 }
